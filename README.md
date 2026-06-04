@@ -1,17 +1,21 @@
-# React + Vite
+# - Penjelasan Fetch API
+![screenshot](Dokumentasi/FetchAPI.png)
+Menggunakan async function agar bisa menggunakan "await", sehingga kode tetap aman walau data tidak berhasil didapatkan dari API
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+# - Penjelasan Komponen
+## 1. FetchAndCreatecard.jsx
+Merupakan komponen utama dari seluruh program, berisi kode untuk mengambil data dari API serta menampilkan profile user besertar search bar.
+## 2. SearchBar.jsx
+Merupakan komponen yang berisi kode bentuk searchbar, sebelum ditampilkan di FetchAndCreateCard.jsx
+## 3. SearchContext.jsx
+Merupakan komponen useContext, yang berfungsi untuk memberikan akses global kepada data "query" atau teks yang diketik di search bar.
 
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
-
-## React Compiler
-
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
-
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
-# ASAS-SEM2-XI
+# - Implementasi React Hook
+## useContext
+![screenshot](Dokumentasi/useContext.png)
+## useEffect
+![screenshot](Dokumentasi/useEffect.png)
+## useRef
+![screenshot](Dokumentasi/useRef.png)
+## useState
+![screenshot](Dokumentasi/useState.png)
