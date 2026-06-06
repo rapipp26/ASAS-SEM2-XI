@@ -7,7 +7,6 @@ function Header() {
         <h1 className="name">WutWut</h1>
         <h2 className="tagline">Sosmed lokal, Kekinian!</h2>
       </div>
-      <hr />
     </>
   );
 }
