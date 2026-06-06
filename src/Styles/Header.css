@@ -16,3 +16,9 @@
     border-bottom: 2px solid #ccc;
     background-color: white;
 }
+
+body {
+    top: 0;
+    right: 0;
+    left: 0;
+}
